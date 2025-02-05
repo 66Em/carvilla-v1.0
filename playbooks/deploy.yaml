@@ -5,8 +5,8 @@
   tasks:
     - name: Creating the Container
       docker_container:
-         name: Gukhan6504-container #docker container name
-         image: Gukhan6504:latest #docker image name
+         name: yaimak-container #docker container name
+         image: yaimak:latest #docker image name
          ports:
            - "4343:80" #เลข port ตัวแรกคือเลข  port ที่รับมาจาก browser ตัวหลังคือ  port ของ docker (คงไว้ที่ 80 ถ้าเป็น nextjs project ก็ 3000)
          state: started

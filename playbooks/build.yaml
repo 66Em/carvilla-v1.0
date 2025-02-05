@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: Gukhan6504:latest #docker image name
+         name: yaimak:latest #docker image name
          source: build
          build:
-            path: ~/Gukhan6504 #path ที่เก็บไฟล์ sourcecode 
+            path: ~/yaimak #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
