@@ -4,7 +4,7 @@ pipeline {
         stage("Copy file to Docker server"){
             steps {
 				//แก้ตรง Gukhan6504 ให้เป็นชื่อเดียวกับ pipeline job/item ที่สร้างใน jenkins
-                sh "scp -r /var/lib/jenkins/workspace/Gukhan6504/* root@43.208.49.150:~/Gukhan6504"
+                sh "scp -r /var/lib/jenkins/workspace/Gukhan6504/* root@43.208.241.236:~/Gukhan6504"
             }
         }
         
